@@ -10,7 +10,12 @@
 </template>
 
 <script setup>
-    const { params } = useRoute().params;
+    const { params } = useRoute().params
+
+    definePageMeta({
+        layout: 'products',
+    })
+
 </script>
 
 <style scoped>
